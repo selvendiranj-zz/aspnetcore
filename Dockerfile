@@ -14,4 +14,4 @@ RUN ["dotnet", "ef", "database", "update"]
 
 EXPOSE 5000/tcp
 
-ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0.0:5000"]
+ENTRYPOINT ["dotnet", "run", "--server.urls", "http://192.168.1.107:5000"]
